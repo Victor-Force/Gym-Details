@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regiatration Form :Gym</title>
+</head>
+<body>
+    <div class="addmission-form">
+        <h2>Muscle Gym Registration</h2>
+        <form>
+            Name:<input type="text" placeholder="Firstname" name="Fname">
+            <input type="text" placeholder="Lastname" name="Lname">
+            <br><br>
+            Phone Number:<input type="tel" placeholder="Phone-Number" name="Phone">
+            <br><br>
+            Email:<input type="email" placeholder="Email" name="email">
+            <br><br>
+            Date of Birth:<input type="date" placeholder="Date" name="date">
+            <br><br>
+             Gender:
+             <input type="radio" name="gender" value="male">Male
+             <input type="radio" name="gender" value="female">Female
+             <br><br>
+             Address: <textarea name="area" cols="20" rows="6"></textarea>
+             <br><br>
+
+             <fieldset>
+                <legend>Membership Details</legend>
+                Joining Date: <input type="date" name="Jdate">
+                <br><br>
+                Membership Type :<input type="radio" name="membership" value="Basic">Basic (Gym)
+                                 <input type="radio" name="membership" value="gold">Gold (Gym + Cardio)
+                                 <input type="radio" name="membership" value="premium">Basic (Gym + Cardio + Crossfit)
+                <br><br>
+                Duration: 
+                <select name="select">
+                    <option value="1">1 Month</option>
+                    <option value="3">3 Month</option>
+                    <option value="6">6 Month</option>
+                    <option value="12">1 year</option>
+                </select>
+                <br><br>
+                 Are you interested in any of the following?
+                 <br><br>
+                 <input type="checkbox" name="add-on" value="yoga">Yoga
+                 <input type="checkbox" name="add-on" value="free-pt">Free PT Trail
+                 <input type="checkbox" name="add-on" value="zumba">Zumba
+                 <input type="checkbox" name="add-on" value="piloxing">Piloxing
+                 <input type="checkbox" name="add-on" value="diet">Diet Plan
+             </fieldset>
+
+             <button type="submit">Submit</button>
+             <button type="reset">Reset</button>
+        </form>
+        <a href="index.html">Back</a>
+    </div>
+    
+</body>
+</html>
